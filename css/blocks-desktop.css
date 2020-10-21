@@ -1,0 +1,60 @@
+#header, #footer {
+    height: 50px;
+    border-width: 1px;
+}
+
+#header {
+    border-bottom-style: solid;
+}
+
+#footer {
+    border-top-style: solid;
+}
+
+#content {
+    height: 510px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#header h1 {
+    padding-left: 10px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#footer #c {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#left {
+    height: 510px;
+    width: 20%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    float: left;
+}
+
+#right {
+    height: 510px;
+    width: 15%;
+    border-left-style: solid;
+    border-left-width: 1px;
+    float: right;
+}
+
+#all {
+    height: 610px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+#allLogin, #allReg {
+    height: 610px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}

@@ -1,0 +1,25 @@
+body {
+    overflow: auto;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+#login, #password, #email, #phone, #birthday {
+    height: 25px;
+    border-radius: 10px;
+    border-style: none;
+    width: 175px;
+}
+
+label {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#loginButton, #registerButton {
+    margin-top: 10px;
+    height: 25px;
+    width: 175px;
+    border-radius: 5px;
+    border-style: none;
+}
